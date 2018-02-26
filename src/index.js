@@ -33,7 +33,7 @@ const AlertTemplate = ({ message, options, style, close }) => {
       {options.type === 'info' && <InfoIcon />}
       {options.type === 'success' && <SuccessIcon />}
       {options.type === 'error' && <ErrorIcon />}
-      <span style={{ flex: 2 }}>{message}</span>
+      <span style={{ flex: 2, color: 'white' }}>{message}</span>
       <button onClick={close} style={buttonStyle}>
         <CloseIcon />
       </button>
