@@ -1,5 +1,2 @@
-import * as Icons from './icons'
-import AlertTemplate from './AlertTemplate'
-
-export { Icons }
-export default AlertTemplate
+export * from './icons'
+export { default } from './AlertTemplate'
