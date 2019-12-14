@@ -28,13 +28,12 @@ const AlertTemplate = ({
   message, 
   options, 
   style, 
-  alertStyle = defaultAlertStyle,
   buttonStyle = defaultButtonStyle,
   iconColors = {},
   close
 }) => {
   return (
-    <div style={{ ...alertStyle, ...style }}>
+    <div style={{ ...defaultAlertStyle, ...style }}>
       {options.type === 'info' && <InfoIcon color={iconColors.info} />}
       {options.type === 'success' && <SuccessIcon color={iconColors.success} />}
       {options.type === 'error' && <ErrorIcon color={iconColors.error} />}
