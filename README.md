@@ -1,6 +1,6 @@
 # react-alert-template-basic-with-icons
 
-> Basic alert template for [react-alert](https://github.com/schiehll/react-alert)
+> Basic alert template with icons for [react-alert](https://github.com/schiehll/react-alert)
 
 [![version](https://img.shields.io/npm/v/react-alert-template-basic-with-icons.svg?style=flat-square)](http://npm.im/react-alert-template-basic-with-icons)
 
