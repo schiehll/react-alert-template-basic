@@ -39,7 +39,7 @@
     "standard": "^10.0.3"
   },
   "peerDependencies": {
-    "react": "^16.2.0"
+    "react": "^16.2.0 || ^17"
   },
   "standard": {
     "parser": "babel-eslint",
